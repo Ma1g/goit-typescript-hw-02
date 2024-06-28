@@ -27,7 +27,7 @@ const App: React.FC = () => {
         setIsError(false);
         const data = await getPictures(searchQuery, page, perPage);
         setPictures(prevState => [...prevState, ...data]);
-        console.log('Fetched pictures:', data); // Log the fetched pictures
+        // console.log('Fetched pictures:', data);
       } catch (error) {
         setIsError(true);
         console.error('Error fetching pictures:', error);
