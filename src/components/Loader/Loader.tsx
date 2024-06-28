@@ -5,10 +5,8 @@ const Loader: React.FC = () => {
   return (
     <div className={css.loadbox}>
       <InfinitySpin
-        width="200px"  // Corrigido para string
+        width="200px"
         color="darkblue"
-        visible={true}
-        ariaLabel="infinity-spin-loading"
       />
     </div>
   );
