@@ -1,0 +1,14 @@
+.loadbtn {
+  margin: 10px auto;
+  background-color: purple;
+  color: whitesmoke;
+  border-radius: 6px;
+  border: none;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 30px;
+  font-size: 22px;
+}
